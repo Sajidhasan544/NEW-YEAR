@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+/* font-family: "Work Sans", serif; */
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1320px;
+    height: 600px;
+    color: white;
+    background:linear-gradient(to bottom,rgba(0,0,0,2.8),rgba(200,200,200,0.0)), url(images/Banner\ Image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.topcont{
+    width: 632px;
+    height: 246px;
+}
+.topcont h3{
+    
+    font-family: "Work Sans", serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 259px;
+    height: 40px;
+    font-size: 32px;
+}
+.topcont h1{
+    font-family: "Work Sans", serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 632px;
+    height: 190px;
+    font-size: 72px;
+}
+
+.offsec{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.off{
+    height: 806px;
+    width: 802.6px;
+}
+.sixty{
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+}
+.hol{
+    font-family: "Work Sans", serif;
+    font-size: 24px;
+    color: #FF0000;
+}
+.ct{
+    font-family: "Work Sans", serif;
+    color: black;
+    font-size: 48px;
+    font-weight: bold;
+}
+.newyy{
+    width: 802.9px;
+    height: 500px;
+}
+
+.wlc {
+    margin-top: 100px;
+    border-radius: 10px;
+    width: 1320px;
+    height: 600px;
+    background: linear-gradient(to right, black, rgba(255, 255, 255, -25)),
+        url("images/Vectorrr.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    display: flex;
+    
+}
+.welsec{
+    display: flex;
+    justify-content: center;
+}
+.welcometo{
+    margin-top: 150px;
+    margin-left: 200px;
+    font-family: "Work Sans", serif;
+    color: white;
+    width: 642px;
+    height: 176px;
+    font-size: 64px;
+}
+.wecl{
+    margin-left: 200px;
+    width: 650px;
+    height: 60px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.join{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 250px;
+    color:white;
+    background: none;
+    border: none;
+}
+
+.pic{
+    padding: 10px;
+    margin-top: 60px;
+    width: 349.16px;
+    height: 464.65px;
+}
+
+.time {
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.3), rgba(225, 0, 0, 0));
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.timecont{
+    margin: auto;
+    text-align: center;
+    width: 549px;
+    height: 272px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.timecont span{
+    font-family: "Work Sans", serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.timecont button{
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #FF0000;
+    color: white;
+    font-family: "Work Sans", serif;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+}
+
+
+.soon {
+    padding: 30px;
+    width: 1320px;
+    height: 463px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 500px;
+}
+.sooncont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.bestoff {
+    width: 393px;
+    height: 255px;
+}
+
+.bestoff h3 {
+    font-family: "Work Sans", serif;
+    font-size: 24px;
+    color: red;
+}
+
+.bestoff h1 {
+    font-size: 48px;
+    font-family: "Work Sans", serif;
+}
+
+.bestoff p {
+    font-size: 20px;
+    font-family: "Work Sans", serif;
+    color: rgba(7, 2, 17, 60);
+}
+
+.picture {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    height: 400px;
+    border: 10px solid red;
+    border-radius: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.picture img{
+    width: 350px;
+    height: 350px;
+}
+.year20{
+    width: 276px;
+}
+.year20 h1{
+    font-size: 60px;
+    font-family: "Work Sans", serif;
+    color: #ff0000;
+}
+.year20 p{
+    font-size: 20px;
+    font-family: "Work Sans", serif;
+    color: rgba(7, 2, 17, 60);
+}
+.year20 img{
+    width: 140px;
+    height: 140px;
+}
